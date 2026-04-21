@@ -5,6 +5,7 @@ services:
     container_name: mcp-searxng
     environment:
       - SEARXNG_BASE_URL=http://searxng:8080
+    restart: unless-stopped
     ports:
       - "8000:8000"
     networks:
@@ -34,6 +35,7 @@ services:
       --models-dir /models
       --models-preset /preset.ini
       --webui-mcp-proxy
+    restart: unless-stopped
     networks:
       - mon_reseau_partage
 
@@ -41,6 +43,7 @@ services:
   searxng:
     image: searxng/searxng:latest
     container_name: searxng
+    restart: unless-stopped
     ports:
       - "8888:8080"
     networks:
