@@ -5,8 +5,10 @@
 
 	- Ca sert à avoir des modèles d'IA open source en local capables de rechercher des infos sur internet, gratuitement, sans trop se fatiguer et en toute indépendance
 
-	- Le moteur de recherche sera accessible indépendamment sur : http://localhost:8888
-	- L'interface de chat IA sera accessible sur : http://localhost:8080
+	- Le moteur de recherche sera accessible indépendamment sur : http://localhost:8888  
+	![](/img/1.png)
+	- L'interface de chat IA sera accessible sur : http://localhost:8080  
+	![](/img/2.png)
 
 
 - **PREREQUIS :**
@@ -19,7 +21,8 @@
 
 - **INITIALISATION :**
  	- Lorsque vous avez téléchargé vos modèles dans ```/models```, éditez le fichier ```/config/preset.ini``` pour faire correspondre les modèles avec leur mmproj (quand ils en ont un) afin de charger leur module vision
-(c'est simple, vous leur donnez un petit nom d'alias et vous copiez/collez le nom des fichiers correspondant)
+(c'est simple, vous leur donnez un petit nom d'alias et vous copiez/collez le nom des fichiers correspondant)  
+![](/img/3.png)
 
 
 - **INSTALLATION :**  
@@ -27,7 +30,8 @@
 
 
 - **PARAMETRAGE :**
-	- Dans les paramétrages accessibles par votre interface de chat IA, allez dans MCP > Add MCP Serveur et entrez l'adresse http://localhost:8000/mcp 
+	- Dans les paramétrages accessibles par votre interface de chat IA, allez dans MCP > Add MCP Serveur et entrez l'adresse http://localhost:8000/mcp  
+	![](/img/4.png)
 
 
 - **MAINTENANCE :**
