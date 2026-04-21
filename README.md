@@ -5,10 +5,10 @@
 
 	- Ca sert à avoir des modèles d'IA open source en local capables de rechercher des infos sur internet, gratuitement, sans trop se fatiguer et en toute indépendance
 
-	- Le moteur de recherche sera accessible indépendamment sur : http://localhost:8888  
-	![](/img/1.png)
-	- L'interface de chat IA sera accessible sur : http://localhost:8080  
-	![](/img/2.png)
+	- Le moteur de recherche sera accessible indépendamment sur : http://localhost:8888 (ou n'importe quelle IP de votre réseau interne)  
+		![](/img/1.png)
+	- L'interface de chat IA sera accessible sur : http://localhost:8080 (ou n'importe quelle IP de votre réseau interne)  
+		![](/img/2.png)
 
 
 - **PREREQUIS :**
