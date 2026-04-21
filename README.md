@@ -47,7 +47,7 @@ pour faire correspondre les modèles avec leur mmproj (quand ils en ont un) afin
 
 - **NOTE :**
 	- Cette version fait tourner llama-server sur les GPU nvidia avec CUDA 13.1
-vous pouvez adapter selon votre configuration (Mac, Linux, Windows, AMD, etc..) en choisissant ce qu'il vous plaît
+vous pouvez adapter selon votre configuration (Mac, AMD, etc..) en choisissant ce qu'il vous plaît
 	ici :  
 	https://github.com/ggml-org/llama.cpp/blob/master/docs/docker.md  
 	et en éditant la ligne  
