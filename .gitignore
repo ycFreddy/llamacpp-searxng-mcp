@@ -1,2 +1,2 @@
-models/**
-config/**
+/models/**
+/config/preset.ini
