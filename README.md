@@ -17,8 +17,7 @@
 	- Avoir Docker installé : https://www.docker.com/
 	- des modèles à placer dans le répertoire ```/models``` que vous pouvez trouver :
 		- ici :  https://huggingface.co/prism-ml/collections
-		- là : https://huggingface.co/mistralai/collections
-		- où la (hop?) : https://huggingface.co/unsloth/collections
+		- où là (hop?) : https://huggingface.co/unsloth/models
 
 
 - **INITIALISATION :**
