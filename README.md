@@ -22,7 +22,11 @@
 
 
 - **INITIALISATION :**
- 	- Lorsque vous avez téléchargé vos modèles dans ```/models```, éditez le fichier ```/config/preset.ini``` pour faire correspondre les modèles avec leur mmproj (quand ils en ont un) afin de charger leur module vision
+ 	- Lorsque vous avez téléchargé vos modèles dans  
+```/models```  
+éditez le fichier  
+```/config/preset.ini```  
+pour faire correspondre les modèles avec leur mmproj (quand ils en ont un) afin de charger leur module vision
 (c'est simple, vous leur donnez un petit nom d'alias et vous copiez/collez le nom des fichiers correspondant)  
 ![](/img/3.png)
 
@@ -43,9 +47,13 @@
 
 - **NOTE :**
 	- Cette version fait tourner llama-server sur les GPU nvidia avec CUDA 13.1
-vous pouvez adapter selon votre configuration (Mac OS, Linux, Windows) en choisissant ce qu'il vous plaît
-	ici : https://github.com/ggml-org/llama.cpp/blob/master/docs/docker.md
-	et en éditant la ligne ```image: ghcr.io/ggml-org/llama.cpp:server-cuda13``` du fichier ```docker-compose.yml```
+vous pouvez adapter selon votre configuration (Mac, Linux, Windows, AMD, etc..) en choisissant ce qu'il vous plaît
+	ici :  
+	https://github.com/ggml-org/llama.cpp/blob/master/docs/docker.md  
+	et en éditant la ligne  
+ ```image: ghcr.io/ggml-org/llama.cpp:server-cuda13```  
+ du fichier  
+```docker-compose.yml```
 
 
 - **TODO :**
