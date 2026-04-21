@@ -23,7 +23,7 @@
 
 
 - **INSTALLATION :**  
-	 ```_docker-compose up -d_```
+	 ```docker-compose up -d```
 
 
 - **PARAMETRAGE :**
@@ -39,8 +39,8 @@
 	- Cette version fait tourner llama-server sur les GPU nvidia avec CUDA 13.1
 vous pouvez adapter selon votre configuration (Mac OS, Linux, Windows) en choisissant ce qu'il vous plaît
 	ici : https://github.com/ggml-org/llama.cpp/blob/master/docs/docker.md
-	et en éditant la ligne image: ghcr.io/ggml-org/llama.cpp:server-cuda13 du fichier docker-compose.yml
+	et en éditant la ligne ```image: ghcr.io/ggml-org/llama.cpp:server-cuda13``` du fichier ```docker-compose.yml```
 
 
 - **TODO :**
-	- faire plus compliqué pour faire plus simple, comme un bon technocrate en technocratie
+	- Faire plus compliqué pour faire plus simple, comme un bon technocrate en technocratie
