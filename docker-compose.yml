@@ -1,0 +1,51 @@
+services:
+  # Serveur MCP (SearXNG)
+  mcp-searxng:
+    build: .
+    container_name: mcp-searxng
+    environment:
+      - SEARXNG_BASE_URL=http://searxng:8080
+    ports:
+      - "8000:8000"
+    networks:
+      - mon_reseau_partage
+
+  # Llama.cpp
+  llama-serveur:
+    image: ghcr.io/ggml-org/llama.cpp:server-cuda13
+    container_name: llama-serveur
+    ports:
+      - "8080:8080"  # Mappe le port 8080 du conteneur vers 8080 sur l'hôte
+    environment:
+      - CORS_ORIGINS=*
+    volumes:
+      - ./models:/models
+      - ./config/preset.ini:/preset.ini
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    command: >
+      --host 0.0.0.0
+      --port 8080
+      --models-dir /models
+      --models-preset /preset.ini
+      --webui-mcp-proxy
+    networks:
+      - mon_reseau_partage
+
+  # SearXNG
+  searxng:
+    image: searxng/searxng:latest
+    container_name: searxng
+    ports:
+      - "8888:8080"
+    networks:
+      - mon_reseau_partage
+
+networks:
+  mon_reseau_partage:
+    driver: bridge

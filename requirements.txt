@@ -1,0 +1,7 @@
+fastmcp
+requests
+beautifulsoup4
+lxml
+html2text
+pdfminer.six
+starlette[standard]
