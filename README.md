@@ -18,7 +18,7 @@
 	- des modèles à placer dans le répertoire ```/models``` que vous pouvez trouver :
 		- ici :  https://huggingface.co/prism-ml/collections
 		- où là (hop?) : https://huggingface.co/unsloth/models  
-		- Où ailleurs
+		- où ailleurs
 
 
 - **INITIALISATION :**
