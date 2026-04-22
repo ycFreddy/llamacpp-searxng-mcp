@@ -10,7 +10,8 @@
 		![](/img/1.png)
 	- L'interface de chat IA sera accessible sur : http://localhost:8080  
 	(ou n'importe quelle IP de votre réseau interne)  
-		![](/img/2.png)
+		![](/img/2.png)  
+		![](/img/2-1.png)
 
 
 - **PREREQUIS :**

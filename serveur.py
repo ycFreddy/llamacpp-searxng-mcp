@@ -9,7 +9,7 @@ from mcp.types import ErrorData, INTERNAL_ERROR, INVALID_PARAMS
 from typing import List, Dict, Literal, Optional
 import html2text
 from pdfminer.high_level import extract_text
-import io
+import io 
 
 #SEARXNG_BASE_URL = os.environ.get("SEARXNG_BASE_URL", "http://localhost:8888") # Exécution de serveur.py en local
 SEARXNG_BASE_URL = os.environ.get("SEARXNG_BASE_URL", "http://searxng:8080") # Exécution de serveur.py sur docker
